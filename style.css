@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Cmmon-style */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* top-banner */
+main{
+    width: 1321px;
+    height: 646px;
+}
+.container{
+background-color: #161616;
+border-radius: 30px;
+margin:50px 140px;
+}
+.top-banner{
+   display: flex;
+   width: 1321px;
+   height: 646px;
+
+}
+.banner-text{
+    width: 530px;
+    padding-left: 106px;
+    padding-top: 50px;
+
+}
+#banner-title{
+    color: white;
+    font-weight: 700px;
+    font-size: 70px;
+    margin-bottom: 0;
+    line-height: 80px;
+}
+#banner-paragrah{
+    color: white;
+    padding-bottom: 24px;
+}
+.link-button{
+    border-radius: 5px;
+    background-color: #DD0000;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px
+}
+.link-button i{
+    padding-left: 2px;
+}
+.banner-img{
+    background-image: url(assets/Banner\ Image.png);
+    background-repeat:no-repeat;
+   width:325px;
+    margin-top: 305px;
+    border: 1px solid #000000;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+/* Transfer live */
+.container-two{
+display: flex;
+margin:50px 140px;
+
+}
+.conatiner-two-button{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 5px;
+}
+.button-one{
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #070000;
+    font-size: 20px;
+   
+}
+.button-two{
+    border-radius: 5px;
+    background-color: #DD0000;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+  
+}
+.conatiner-two-live{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    
+}
+.player{
+    margin-left: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+    
+}
+.player img{
+    width: 100%;
+}
+.player button{
+    margin-left: 20px;
+}
+.player h5{
+ margin-left: 20px;
+}
+.player span{
+    color: rgba(22, 22, 22, 0.7);
+    margin-left: 20px;
+    font-size: 16px;
+}
+/* footer */
+    footer{
+    
+     height: 444px;
+     left: 0px;
+     top: 2090px;
+     background: #161616;
+    }
+    footer h2{
+        padding-top: 130px;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+
+    }
+  footer  hr{
+        width:1101px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    footer ul{
+        margin-left: 295px;
+    margin-top: 81px;
+    padding-left: 24px;
+
+    }
+    footer li{
+        list-style: none;
+        text-align: center;
+        color: white;
+        float: left;
+        padding-left: 20px;
+    }
+
